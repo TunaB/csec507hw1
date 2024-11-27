@@ -1,0 +1,21 @@
+{
+    "name": "csec507hw1",
+    "version": "0.1.0",
+    "scripts": {
+      "analyzeEng": "ts-node FrequencyAnalyze.ts eng analyze",
+      "pairsEng": "ts-node FrequencyAnalyze.ts eng pairs",
+      "decryptEng": "ts-node FrequencyAnalyze.ts eng decrypt",
+      "testEng": "ts-node FrequencyAnalyze.ts eng test",
+      "analyzeTur": "ts-node FrequencyAnalyze.ts tur analyze",
+      "pairsTur": "ts-node FrequencyAnalyze.ts tur pairs",
+      "decryptTur": "ts-node FrequencyAnalyze.ts tur decrypt",
+      "testTur": "ts-node FrequencyAnalyze.ts tur test"
+    },
+    "dependencies": {
+      "ts-node": "10.9.2",
+      "typescript": "5.6.3",
+      "@types/node": "22.8.1"
+
+    }
+  }
+  
